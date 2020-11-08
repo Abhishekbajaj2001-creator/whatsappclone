@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(green,red) ;
+   height: 100vh;
+}
+
+h1{
+    display: block;
+   text-align: center;
+}
+ 
+.inside{
+    border: 5px solid black;
+    border-radius: 5px;
+    display: block;
+    width: 50%;
+    height: 70vh;
+    margin:auto;
+    overflow-y: auto;
+}
+.but{
+    margin:1px;
+}
+
+.chatblock{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Xanh Mono', monospace;
+    margin: 10px 20px;
+    background-color:grey;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+img{
+    height: 70px;
+    display: flex;
+    display: block;
+    margin: 20px auto;
+}
+ form{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    float:right;
+    clear: both;
+}
+.left{
+    background-color: cornflowerblue;
+    float: left; 
+    clear:both;
+}
+.textarea{
+    width: 30vw;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+} 
+.btn{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px 4px;
+    margin:0px 8px;
+}
